@@ -1,0 +1,45 @@
+img{
+    height: 250px;
+    width: 100%;
+}
+
+h5 {
+    text-align: center;
+}
+
+.navbar {
+    min-height: 70px; 
+}
+
+.deskripsi{
+    font-size: 16px;
+    text-align: justify;
+}
+
+@media (min-width: 580px) {
+    .modal-dialog {
+        max-width: 400px;
+    }
+    .modal-dialog .modal-content {
+        padding: 1rem;
+    }
+}
+
+.form-title {
+    margin: 0rem 0rem 4rem;
+}
+
+.btn-round {
+    border-radius: 3rem;
+}
+
+.alert.alert-server {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.text-center>th,
+.text-center>td {
+    text-align: center;
+    vertical-align: middle; 
+}
